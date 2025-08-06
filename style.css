@@ -151,3 +151,10 @@ a {
     border-radius: 8px;
     margin-top: 10px;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px;
+    text-align: center;
+}
