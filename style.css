@@ -66,3 +66,37 @@ a {
     border-radius: 8px;
     margin-top: 10px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 150px 120px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.info-content {
+    display: flex;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+}
