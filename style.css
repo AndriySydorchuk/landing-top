@@ -6,12 +6,17 @@
 }
 
 header {
-    background-color: #1f2937;
-    color: #f9faf8;
     padding: 16px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .header-logo {
@@ -57,14 +62,17 @@ a {
     padding-left: 32px;
 }
 
-.hero-btn {
+button {
     background-color: #3882f6;
     color: #fff;
     padding: 8px 32px;
     cursor: pointer;
-    border: 0px;
     border-radius: 8px;
     margin-top: 10px;
+}
+
+.hero-btn {
+    border: 0px;
 }
 
 .info {
@@ -150,18 +158,10 @@ a {
 }
 
 .signup-btn {
-    background-color: #3882f6;
-    color: #fff;
-    padding: 8px 32px;
-    cursor: pointer;
     border: 2px solid #f9faf8;
-    border-radius: 8px;
-    margin-top: 10px;
 }
 
 .footer {
-    background-color: #1f2937;
-    color: #f9faf8;
     padding: 32px;
     text-align: center;
 }
