@@ -29,3 +29,40 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+    padding: 62px 150px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 460px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 460px;
+}
+
+.hero-img {
+    width: 50%;
+    height: auto;
+    padding-left: 32px;
+}
+
+.hero-btn {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 8px 32px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
